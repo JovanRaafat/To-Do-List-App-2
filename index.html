@@ -20,13 +20,13 @@
   <header class="container-fluid px-md-5 py-4 d-flex justify-content-between">
     <h2 class="w-50"><i class="fas fa-clipboard-check"></i> To-Do List</h2>
 
-    <div class="input-group mb-3 w-25 d-flex gap-2">
+    <form id="form" class="input-group mb-3 w-25 d-flex gap-2">
       <input type="text" id="userContentInput" class="form-control py-2" placeholder="I need..." />
 
-      <button class="btn btn-secondary" type="button" id="submitBtn">
+      <button class="btn btn-secondary" type="submit" id="submitBtn">
         Submit
       </button>
-    </div>
+    </form>
   </header>
 
   <div class="mt-3 mb-4 w-50 mx-auto">
@@ -35,11 +35,6 @@
 
   <section id="home" class="container">
 
-    <div id="homeContent"
-      class="home-item mb-2 rounded-pill text-dark mx-auto w-50 bg-danger d-flex justify-content-between align-items-center">
-      <p id="itemContent" class="m-0 p-0">Content: English Study</p>
-      <i class="fa-sharp fa-solid fa-trash"></i>
-    </div>
 
   </section>
 
